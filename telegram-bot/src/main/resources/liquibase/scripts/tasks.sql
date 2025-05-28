@@ -4,7 +4,10 @@
 CREATE TABLE tasks
 (
     id                SERIAL PRIMARY KEY,
-    chat_id           INTEGER   NOT NULL,
-    notification_task VARCHAR(255),
-    scheduled_time    TIMESTAMP NOT NULL
+    chat_id           INTEGER,
+    notification_task TEXT,
+    date_time         TIMESTAMP
 );
+
+
+
