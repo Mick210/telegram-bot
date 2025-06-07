@@ -80,4 +80,5 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
         telegramBot.execute(new SendMessage(chatId, "Бот был остановлен."));
         logger.info("Bot has been stopped");
     }
+
 }
